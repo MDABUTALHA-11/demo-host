@@ -1,0 +1,37 @@
+/* styles.css */
+
+
+#game-container {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#story-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+#story {
+    margin-bottom: 20px;
+}
+
+.choice-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.choice-button:hover {
+    background: #b30000;
+}
