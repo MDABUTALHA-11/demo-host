@@ -1,0 +1,19 @@
+
+.container {
+    text-align: center;
+  }
+  
+  #question {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #feedback {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  #score, #time {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
