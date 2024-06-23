@@ -1,0 +1,44 @@
+/* styles.css */
+
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 2px;
+}
+
+.candy {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.candy.red {
+    background-color: red;
+}
+
+.candy.yellow {
+    background-color: yellow;
+}
+
+.candy.blue {
+    background-color: blue;
+}
+
+.candy.green {
+    background-color: green;
+}
+
+.candy.purple {
+    background-color: purple;
+}
+
+.candy.orange {
+    background-color: orange;
+}
+
+.candy.blank {
+    background-color: transparent;
+}
